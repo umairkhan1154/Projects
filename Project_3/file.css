@@ -1,0 +1,215 @@
+#second {
+    background-color: #363636;
+    color:white;
+    font-size: 18px;
+    word-spacing: 3px;
+
+}
+#top{
+    margin-top: 60px;
+    background-color:#b31229;
+    padding-top: 10px;
+    margin-bottom: 50px;
+}
+#bottom{
+    margin-bottom: 50px;
+}
+#text{
+    font-size: 18px;
+    word-spacing: 5px;
+    margin-top: 5%;
+}
+.head{
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 60px;
+    word-spacing: 1px;
+}
+.E{
+    color: white;
+    padding-top: 20px;
+    font-size: 25px;
+}
+#grey{
+    padding-top:20px ;
+}
+.para{
+    color: white;
+    font-size: 18px;
+    margin-top: 25px;
+}
+#btn2{
+    margin-top: 12px;
+    padding: 5px 30px 5px 15px;
+    margin-left: -20px;
+    background-color: #b31229;
+    color: white;
+    border: 2px solid white;
+}
+#btn1{
+    margin-top: 40px;
+    padding: 5px 15px 5px 15px;
+    margin-left: -20px;
+    background-color: #b31229;
+    color: white;
+    border: 2px solid white;
+
+}
+#btn2:hover , #btn1:hover{
+    background-color:rgba(100,0,0, 0.8);
+    border: none;
+    outline: none;
+
+}
+#btn2:active m #btn1:active{
+    background-color:rgba(100,0,0, 0.8);
+    border: none;
+    outline: none;
+}
+#third{
+    padding-bottom: 30px;
+}
+
+#fourth{
+    border: 1px solid black;
+    margin: 40px -4% 10px 10px;
+    float: right;
+    padding: 5px 10px 10px 30px;
+    background-color:#363636;
+    color:white;
+    font-size: 120%;
+    font-weight: normal;
+}
+h2.fifth{
+    color: white;
+    font-weight: bold;
+    padding-left: 12px;
+    padding-bottom: 15px;
+    font-size: 40px;
+    word-spacing: 4px;
+    letter-spacing: 2px;
+}
+#name , #email, #password{
+    margin-bottom: 8%;
+}
+
+.jumbotron {
+    position:static;
+    background: url("image/new1.jpg") center center;   
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+}
+input.form-control{
+    padding: 20px 20px 20px 10px;
+    font-size: 18px;
+    background-color: whitesmoke;
+}
+#seven{
+    margin-top: 6%;
+    margin-bottom: 4%;
+}
+.seventh{
+    font-weight: bold;
+    font-size: 4em;
+    word-spacing: 4px;
+    letter-spacing: 2px;
+}
+h2{
+    font-weight: bold;
+}
+#eight{
+    padding: 10px ;
+    font-size: 18px;
+    background-color:#363636 ;
+}
+#first:hover{
+    background-color: black;
+    text-decoration: underline;
+}
+#first:active{
+    background-color:#b31229 ;
+}
+#first1{
+    background-color:#363636;
+    color: white;
+    border: 2px solid white;
+    padding: 5px 25px 5px 25px;
+    font-size: 18px;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+#first1:hover{
+    background-color:#b31229 ;
+    border: none;
+    outline: none;
+}
+#btn3{
+    background-color: gray;
+    color: white;
+    border: 2px solid white;
+    margin-top: 2% ;
+    margin-bottom: 8% ;
+    padding: 2% 7% 2% 7%;
+    font-size: 100%;
+
+}
+#btn3:hover{
+    background-color:#b31229 ;
+    border: none;
+    outline: none;
+}
+.nine{
+    font-size: 250%;
+    font-weight: bold;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    padding-bottom: 2%;
+    color: whitesmoke;
+}
+.ninth{
+    font-size: 120%;
+    /* letter-spacing: 1px; */
+    word-spacing: 2px;
+    color: white;
+}
+
+.sec{
+    position: relative;
+    background: url("image/new.jpg") center center;   
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+    margin-top: -30px;
+    color: whitesmoke;
+    padding-top: 40px;
+    position: static;
+}
+#btn4{
+    margin-right: 6%;
+    margin-top: 4%;
+    padding: 1% 1% 1% 1%;
+    margin-bottom: 6%;
+    background-image: url("image/new.jpg");
+    background-size: cover;
+    border: 2px solid white;
+}
+#btn4:hover{
+    border: none;
+    outline: none;
+    /* background-color:#b31229 ; */
+    background: #b31229;
+}
+#btn4:active{
+    background-color: white;
+}
+#footer{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding: 3% 0% 2% 0% ;
+    color: white;
+    font-size: 140%;
+
+}
