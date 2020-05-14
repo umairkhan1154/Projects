@@ -1,0 +1,264 @@
+/*============
+Global section 
+==============*/
+*{
+    font-family : 'Dosis', sans-serif;
+    margin:0;
+    padding:0;
+}
+h1{
+    font-size: 3em;
+}
+h2{
+    font-size: 2em;
+}
+h3{
+    font-size: 1.5em;
+}
+/*=====
+hero
+=====*/
+.hero{
+    background: linear-gradient(to bottom right, #2196F3,#009688 );
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    
+}
+.menu{
+    width: 100%;
+    background: yellow;
+    height: 40px;
+}
+.menu ul{
+    text-align: center;
+
+}
+.menu ul li{
+    list-style: none;
+    display: inline;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    line-height: 40px;
+    padding: 0px 15px 0px 15px;
+    
+}
+/*==============
+Services section*/
+.services{
+    width: 100%;
+    background-color: hsl(0,0%,95%);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+.col-wrapper{
+    width:95%;
+    margin: auto;
+    padding-top: 50px;
+    padding-right: 3px;
+}
+.services-col{
+    width : 33.33%;
+    float: left;
+    /* padding: 10px 20px 10px 20px; */
+    font-size: 15px;
+    /* padding-right: 1px; */
+}
+.img{
+    height: 80px;
+    width: 80px;
+}
+.col-wrapper::after{
+    clear: both;
+    display: table;
+    content: "";
+}
+/*====
+ABOUT US 
+====== */
+.aboutus{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    background-image: url(Com.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: rgba(0, 0,0, 0.9);
+    background-attachment: fixed;
+    color: white;
+}
+.aboutus-content{
+    width: 80%;
+    margin: auto;
+    padding-top: 15px;
+    font-size: 1.5em;
+}
+.aboutbtn{
+    background: rgba(0,0,0, 0.01);
+    padding: 10px 15px 10px 15px;    
+    margin-top: 30px;
+    border: none;
+    outline: 1.5px solid yellow;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+
+}
+.contact{
+    width: 100%;
+    height: 10%;
+    background-color: hsl(0,0%,95%);
+    padding-top: 5px;
+}
+.cta{
+    background-color: yellow;
+    width: 100%;
+    padding: 30px 5px 30px 5px;
+    height: 170%;
+    /* padding-top: -10px; */
+    text-align: center;
+}
+.cta-col{
+    width: 33.33%;
+    float: left;
+    text-decoration: none;
+}
+.cta::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.cta-col h3{
+    display: inline;
+}
+
+.contact-info{
+    width: 100%;
+    padding: 30px 5px 30px 5px;
+    text-align: center;
+}
+.contact-info::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.contactinfo-col1{
+    width: 35%;
+    float: left;
+    text-align: center;
+    padding: ;
+}
+.contactinfo-col2{
+    width: 60%;
+    float: left;
+    /* padding-right: 10%; */
+    padding : 30px 5px 30px 5px;
+    /* margin-right: -10px;s */
+}
+.img-icons{
+    color:white;
+    border: 1px solid black;
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    padding: 5px;
+    margin-top: -5px;
+    /* background-color: black; */
+    color:white;
+}
+.form-col{
+    float: left;
+    width: 48%;
+    margin-right: 2%;
+    text-align: left;
+
+}
+.fname,.femail{
+    width: 100%;
+    height: 35px;
+    padding:0 5px 0 5px ;
+    background-color:white;
+    border: 1px solid black;
+    outline: none;
+}
+.msg{
+    width: 100%;
+    height: 250px;
+    border:1px solid black;
+    /* outline: none; */
+    background-color:white;
+}
+.messag{
+    text-align: left;
+}
+/* #ff{
+    background-color: white;
+    border: 1px solid;
+} */
+
+.sendbtn{
+    background-color:yellow;
+    border: none;
+    outline: 1px solid black;
+    padding: 10px 30px 10px 30px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.profiles{
+    width: 100%;
+    height: 50%;
+    background-color: hsl(0 ,0% ,95%);
+    padding-top: 80px;
+    padding-bottom: 100px;
+    text-align: center;
+    /* background-color: white; */
+    text-align: left;
+    line-height: 30px;
+}
+.T{
+    text-align: center;
+    font-weight: bold;
+}
+.col-pro{
+    width: 100%;
+    float: left;
+    /* background-color: white; */
+    margin-bottom: 10%;
+    word-spacing: 3px;
+    /* letter-spacing: 1px; */
+    margin-top: 50px;
+
+}
+.IMG{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+.col-pro1{
+    float: left;
+    padding: 10px 10px 10px 10px;
+    margin-top: 20px;
+    margin-left: 12px;
+}
+.d{
+    font-family: 'Lobster', cursive;
+    padding-bottom: 5px;
+    margin: 2px 5px 2px 5px;
+
+}
+.col-pro::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+input{
+    background-color: white;
+}
